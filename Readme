@@ -1,0 +1,330 @@
+# 🌾 SkyRice Global
+
+> **Premium Rice Import, Export, Processing & Polishing Solutions**
+>
+> Connecting farmers, dealers, businesses, and households with high-quality rice sourced directly from Bihar, India.
+
+---
+
+## 🚀 Live Features
+
+✨ Modern Responsive Landing Page
+✨ Rice Import & Export Business Website
+✨ Direct Farmer-to-Buyer Network
+✨ Product Showcase & Rice Varieties
+✨ Interactive Contact & Enquiry Form
+✨ Email Integration with EmailJS
+✨ Mobile Friendly Design
+✨ SEO Optimized Structure
+✨ Fast Loading Embedded Images
+✨ WhatsApp & Email Contact Support
+
+---
+
+## 📸 Project Preview
+
+### Home Page
+
+* Hero section with company introduction
+* Rice field imagery
+* Call-to-action buttons
+
+### About Us
+
+* Company story
+* Mission & Vision
+* Founder information
+
+### Rice Varieties
+
+* Basmati Rice
+* Non-Basmati Rice
+* Sona Masoori
+* Parboiled Rice
+* Broken Rice
+* Paddy Procurement
+
+### Trade Section
+
+* For Buyers
+* For Sellers
+* Export Opportunities
+* Import Opportunities
+
+### Contact Form
+
+* Customer enquiry submission
+* Email notifications
+* Business requirement collection
+
+---
+
+## 🏢 Business Model
+
+```text
+Farmers
+    │
+    ▼
+SkyRice Global
+    │
+    ├── Dealers
+    ├── Retailers
+    ├── Exporters
+    ├── Importers
+    └── Households
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* HTML5
+* CSS3
+* JavaScript (ES6)
+
+### Email Service
+
+* EmailJS
+
+### Design
+
+* Responsive Layout
+* CSS Grid
+* Flexbox
+* SVG Graphics
+* Lazy Loaded Images
+
+---
+
+## 📂 Project Structure
+
+```bash
+SkyRice-Global/
+│
+├── index.html
+├── assets/
+│   ├── images/
+│   ├── icons/
+│   └── logos/
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── main.js
+│
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/yourusername/skyrice-global.git
+```
+
+### Open Project
+
+```bash
+cd skyrice-global
+```
+
+### Run
+
+Simply open:
+
+```bash
+index.html
+```
+
+or use VS Code Live Server.
+
+---
+
+## 📧 EmailJS Setup
+
+### 1. Create Account
+
+https://www.emailjs.com
+
+### 2. Create Service
+
+Example:
+
+```text
+service_xxxxxx
+```
+
+### 3. Create Template
+
+Variables:
+
+```html
+{{name}}
+{{phone}}
+{{email}}
+{{location}}
+{{role}}
+{{type}}
+{{company}}
+{{variety}}
+{{quantity}}
+{{visit}}
+{{message}}
+```
+
+### 4. Get Public Key
+
+Dashboard → Account → API Keys
+
+### 5. Configure
+
+```javascript
+emailjs.init("YOUR_PUBLIC_KEY");
+```
+
+```javascript
+emailjs.send(
+  "YOUR_SERVICE_ID",
+  "YOUR_TEMPLATE_ID",
+  formData
+);
+```
+
+---
+
+## 🌐 SEO Features
+
+* Semantic HTML
+* Meta Tags
+* Open Graph Support
+* Mobile Friendly
+* Fast Page Speed
+* Lazy Loading
+* Accessible Navigation
+
+---
+
+## 📱 Responsive Design
+
+Supported Devices:
+
+| Device  | Support |
+| ------- | ------- |
+| Desktop | ✅       |
+| Laptop  | ✅       |
+| Tablet  | ✅       |
+| Mobile  | ✅       |
+
+---
+
+## 🔒 Form Validation
+
+The contact form validates:
+
+* Name
+* Phone Number
+* Buyer/Seller Selection
+* Individual/Business Selection
+
+Error alerts are shown before submission.
+
+---
+
+## 🎯 Future Improvements
+
+* [ ] Admin Dashboard
+* [ ] Product Management
+* [ ] Customer CRM
+* [ ] Order Tracking
+* [ ] Multi-language Support
+* [ ] Payment Gateway Integration
+* [ ] Real-time Rice Price Updates
+* [ ] Export Documentation Portal
+* [ ] Inventory Management System
+
+---
+
+## 🌎 Target Market
+
+### Domestic
+
+* Rice Dealers
+* Wholesalers
+* Retailers
+* Hotels
+* Restaurants
+
+### International
+
+* Importers
+* Food Distributors
+* Rice Trading Companies
+
+---
+
+## 👨‍💼 Founder
+
+### Akash Kushwaha
+
+Founder & Owner
+
+SkyRice Global
+
+Focused on building a trusted rice supply chain connecting Bihar's farmers with customers across India and worldwide.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create your feature branch
+
+```bash
+git checkout -b feature/new-feature
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push to branch
+
+```bash
+git push origin feature/new-feature
+```
+
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+⭐ Star the repository
+
+🍴 Fork the project
+
+📢 Share with others
+
+---
+
+### 🌾 SkyRice Global
+
+*"From Bihar's Fields to the World's Markets."*
